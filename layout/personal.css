@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+.header .content {
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  position: relative;
+  font-size: 14pt;
+}
+.header .content .left {
+  width: 70px;
+  height: 70px;
+  background-color: lightblue;
+}
+.header .content .textarea {
+  position: absolute;
+  top: 35px;
+  left: 250px;
+}
+.header .content .number {
+  position: absolute;
+  top: 37px;
+  left: 1000px;
+}
+.header .content .bottonarea {
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+.header .content .bottonarea button {
+  border-radius: 3px;
+  background-color: lightblue;
+  color: aliceblue;
+  border-style: none;
+  font-size: 14pt;
+  box-shadow: 2px 2px 2px gray;
+}
+.header .content .bottonarea button:hover {
+  background-color: lightgray;
+  color: aliceblue;
+}
+.header .content .bottonarea button:active {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.boxarea {
+  width: 75vw;
+  height: 70vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 160px;
+}
+.boxarea button {
+  width: 300px;
+  height: 200px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  font-size: 16pt;
+  color: aliceblue;
+  border-style: none;
+}
+.boxarea button:hover {
+  background-color: lightgray;
+  color: aliceblue;
+}
+.boxarea button:active {
+  background-color: cadetblue;
+  color: aliceblue;
+}/*# sourceMappingURL=personal.css.map */

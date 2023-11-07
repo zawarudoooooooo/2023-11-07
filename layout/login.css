@@ -1,0 +1,126 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+.header .content {
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  position: relative;
+  font-size: 14pt;
+}
+.header .content .left {
+  width: 70px;
+  height: 70px;
+  background-color: lightblue;
+}
+.header .content .textarea {
+  position: absolute;
+  top: 35px;
+  left: 250px;
+}
+.header .content .number {
+  position: absolute;
+  top: 37px;
+  left: 1000px;
+}
+.header .content .bottonarea {
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+.header .content .bottonarea button {
+  border-radius: 3px;
+  background-color: lightblue;
+  color: aliceblue;
+  border-style: none;
+  font-size: 14pt;
+  box-shadow: 2px 2px 2px gray;
+}
+.header .content .bottonarea button:hover {
+  background-color: lightgray;
+  color: aliceblue;
+}
+.header .content .bottonarea button:active {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.content {
+  width: 100vw;
+}
+.content .page {
+  width: 20vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+}
+.content .page p {
+  font-size: 16pt;
+  color: aliceblue;
+  margin: 0;
+}
+.content .page #inputarea {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+.content .page #emailIcon {
+  position: absolute;
+  top: 35px;
+  left: 5px;
+}
+.content .page #questionIcon {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+}
+.content .page #lockIcon {
+  position: absolute;
+  top: 115px;
+  left: 5px;
+}
+.content .page .checkarea {
+  width: 300px;
+  display: flex;
+  font-size: 10pt;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+.content .page .checkarea #radio {
+  font-size: 10pt;
+}
+.content .page .checkarea .link {
+  color: aliceblue;
+  margin-left: 100px;
+}
+.content .page .bottonarea button {
+  border-radius: 3px;
+  background-color: cadetblue;
+  color: aliceblue;
+  border-style: none;
+  font-size: 14pt;
+  box-shadow: 2px 2px 2px gray;
+}
+.content .page .bottonarea button:hover {
+  background-color: lightgray;
+  color: aliceblue;
+}
+.content .page .bottonarea button:active {
+  background-color: cadetblue;
+  color: aliceblue;
+}/*# sourceMappingURL=login.css.map */

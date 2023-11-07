@@ -1,0 +1,122 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 20vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+
+    .content{
+        width: 90vw;
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        position: relative;
+        font-size: 14pt;
+        
+
+        .left{
+            width: 70px;
+            height: 70px;
+            background-color: lightblue;
+        }
+
+        .textarea{
+            position: absolute;
+            top: 35px;
+            left: 250px;
+        }
+
+        .number{
+            position: absolute;
+            top: 37px;
+            left: 1000px;
+        }
+
+        .bottonarea{
+            position: absolute;
+            top: 35px;
+            right: 0;
+
+            a{
+                #bannerbtn{
+                    border-radius: 3px;
+                    background-color: lightblue;
+                    color: aliceblue;
+                    border-style: none;
+                    font-size: 14pt;
+                    box-shadow: 2px 2px 2px gray;
+    
+                    &:hover{
+                        background-color: lightgray;
+                        color: aliceblue;
+                    }
+    
+                    &:active{
+                        background-color: cadetblue;
+                        color: aliceblue;
+                    }
+    
+                }
+
+            }
+
+
+        
+
+        }
+
+    }
+}
+
+.area{
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    font-size: 28pt;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: space-around;
+
+    p{
+        font-size: 20pt;
+        color: aliceblue;
+        margin: 0;
+
+    }
+
+    button{
+        width: 150px;
+        height: 40px;
+        border-radius: 3px;
+        background-color: cadetblue;
+        color: aliceblue;
+        border-style: none;
+        box-shadow: 2px 2px 2px gray;
+
+        &:hover{
+            background-color: lightgray;
+            color: aliceblue;
+        }
+
+        &:active{
+            background-color: cadetblue;
+            color: aliceblue;
+        }
+
+    }
+
+    .zoneone{
+        margin-bottom: 45px;
+    }
+
+    .zonetwo{
+        margin-bottom: 45px;
+    }
+}
